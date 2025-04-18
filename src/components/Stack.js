@@ -67,7 +67,7 @@ const Stack = () => {
   );
 };
 
-// 💅 Styles
+
 const styles = {
   container: {
     maxWidth: '600px',

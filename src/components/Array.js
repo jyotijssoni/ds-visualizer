@@ -101,9 +101,9 @@ const ArrayComponent = () => {
       <div style={styles.buttonGroup}>
         <button style={styles.button} onClick={addElement}>➕ Push</button>
         <button style={styles.button} onClick={prependElement}>⏮ Prepend</button>
-        <button style={styles.button} onClick={insertAtIndex}>📍 Insert at Index</button>
+        <button style={styles.button} onClick={insertAtIndex}>📍 Insert at {inputIndex}</button>
         <button style={styles.button} onClick={removeElement}>❌ Pop</button>
-        <button style={styles.button} onClick={removeAtIndex}> ❌ Remove at Index</button>
+        <button style={styles.button} onClick={removeAtIndex}> ❌ Remove at {inputIndex}</button>
       </div>
 
       <div style={styles.arrayContainer}>

@@ -10,8 +10,8 @@ const Navbar = ({ onSelectDataStructure }) => {
           <button style={styles.button} onClick={() => onSelectDataStructure('stack')}>📚 Stack</button>
           <button style={styles.button} onClick={() => onSelectDataStructure('queue')}>📥 Queue</button>
           <button style={styles.button} onClick={() => onSelectDataStructure('linkedlist')}>🔗 Linked List</button>
-          <button style={styles.button} onClick={() => onSelectDataStructure('tree')}>🌳 Binary Tree</button>
-          <button style={styles.button} onClick={() => onSelectDataStructure('graph')}>🕸 Graph</button>
+          {/* <button style={styles.button} onClick={() => onSelectDataStructure('tree')}>🌳 Binary Tree</button> */}
+          {/* <button style={styles.button} onClick={() => onSelectDataStructure('graph')}>🕸 Graph</button> */}
         </div>
       </div>
     </nav>
